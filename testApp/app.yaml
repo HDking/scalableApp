@@ -1,0 +1,11 @@
+application: helloudacity
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: helloworld.app
+
+#hao@hao-Aspire-5750:~/Desktop/code/udacity/scalableApps/myCode/testApp$ ~/Desktop/code/udacity/google_appengine/appcfg.py update /home/hao/Desktop/code/udacity/scalableApps/myCode/testApp
